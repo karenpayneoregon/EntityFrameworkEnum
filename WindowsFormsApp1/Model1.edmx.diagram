@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1c66ef10bf304f72a7da6f6755314645" Name="Diagram1">
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Category" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" FillColor="255, 255, 192" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Contact" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.ContactType" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Country" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Customer" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Department" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Employee" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Order_Detail" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Order" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Product" Width="1.5" PointX="5.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Shipper" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NorthWindAzureForInsertsModel.Supplier" Width="1.5" PointX="3" PointY="20.875" IsExpanded="true" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Customers_Contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Customers_ContactType" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Customers_Countries" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Orders_Customers2" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="NorthWindAzureForInsertsModel.FK_Products_Suppliers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
