@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LanguageCodes.cs">
+      <DependentUpon>LanguageCodes.ttinclude</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Categories.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -50,6 +55,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LanguageCodes.ttinclude">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>LanguageCodes.cs</LastGenOutput>
+    </None>
     <None Include="Categories.ttinclude">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Categories.cs</LastGenOutput>
