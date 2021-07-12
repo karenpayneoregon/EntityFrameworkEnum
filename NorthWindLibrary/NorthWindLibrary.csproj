@@ -53,6 +53,7 @@
     <Compile Include="Classes\CategoriesNames.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="Classes\DataOperations.cs" />
+    <Compile Include="Classes\PersonTitles.cs" />
     <Compile Include="NorthWindContext.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -19,7 +19,8 @@ namespace EnumGeneratorLibrary
         /// <returns></returns>
         public string Create(
             string pServerName, 
-            string pDatabase, string pTable, 
+            string pDatabase, 
+            string pTable, 
             string pIdentifier, 
             string pName)
         {

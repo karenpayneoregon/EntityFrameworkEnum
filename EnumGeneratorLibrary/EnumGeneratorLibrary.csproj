@@ -52,6 +52,11 @@
       <DependentUpon>Categories.ttinclude</DependentUpon>
     </Compile>
     <Compile Include="Generator.cs" />
+    <Compile Include="PersonTitle.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonTitle.ttinclude</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +67,10 @@
     <None Include="Categories.ttinclude">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Categories.cs</LastGenOutput>
+    </None>
+    <None Include="PersonTitle.ttinclude">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PersonTitle.cs</LastGenOutput>
     </None>
     <None Include="readme.md" />
   </ItemGroup>
